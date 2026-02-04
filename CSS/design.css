@@ -1,0 +1,37 @@
+html{
+    background-color: cyan;
+
+}
+
+body{
+    background-color: bisque;
+    width: 900px;
+    border: 2px solid black;
+}
+
+header{
+    background-color: aquamarine;
+    height: 130px;
+    border-bottom: 2px solid blue;
+}
+
+header img {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+header h1{
+    margin-left: 100px;
+}
+
+main img {
+    width: 500px;
+    height: 300;
+}
+
+footer p{
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+}
