@@ -1,8 +1,10 @@
+/* html style */
 html{
-    background-color: cyan;
+    background-color: lightcyan;
 
 }
 
+/* body style */
 body{
     background-color: bisque;
     width: 900px;
@@ -22,16 +24,37 @@ header img {
 }
 
 header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 100px;
+    text-shadow: 5px;
 }
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    list-style-type: none;
+}
+
+
 
 main img {
     width: 500px;
     height: 300;
 }
 
-footer p{
-    text-align: center;
-    font-size: 17px;
-    font-style: italic;
+footer {
+    background-color: lightcyan;
+    height: 140px;
+    border-top: solid blue;
 }
+
+footer p{
+    
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
