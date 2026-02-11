@@ -4,5 +4,6 @@ Our webpage introduces the topic of Sustainable Communities and presents the 17 
 HTML, JavaScript, CSS
 ## Usage
 ### Authors
-Joshua Medina
-Prabhjot 
+Joshua 
+Prabhjot
+Samuel
