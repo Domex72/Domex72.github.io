@@ -4,31 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel ="stylesheet" href="CSS/common.css">
     <link rel ="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Sustainable Communities</title>
 </head>
+
 <body>
      <header>
         <h1>Sustainable Communities</h1>
 
             <nav>
                 <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/news.html">News</a></li>
-                    <li><a href="/worldpollution.html">World Pollution</a></li>
-                    <li><a href="/donation.html">Donation</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="worldpollution.html">World Pollution</a></li>
+                    <li><a href="donation.html">Donation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-     </header>
+                </nav>
+    </header>
     
-        <h2>Welcome to Sustainable Communities</h2>
-        <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>              
-        <p>Join us in creating a more sustainable future for our communities and the planet.</p>
-  
+     <button id="themeToggle"> Dark Mode</button>
+
+    <main>
+        <section class="hero">
+        <h2>Building a Better World Together</h2>
+        <div class="video-container">
+        <iframe 
+        width="100%" 
+        height="500" 
+        src="https://www.youtube.com/embed/0XTBYMfZyrM?autoplay=1&mute=1&loop=1&playlist=0XTBYMfZyrM" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+        </iframe>
+        </div>
+        <p class="mission-statement">
+        Our mission is to empower local communities to adopt sustainable practices that align with the United Nations' 17 Global Goals. From urban greening to water conservation, every small action contributes to a healthier planet.
+        </p>
+        </section>
+
+        <section class="info-grid">
+        <div class="info-card">
+            <i class="fas fa-leaf"></i>
+            <h3>Living Walls</h3>
+            <p>We advocate for biofilter living walls in urban spaces to naturally purify indoor air and increase local biodiversity.</p>
+        </div>
+        <div class="info-card">
+            <i class="fas fa-tint"></i>
+            <h3>Water Narratives</h3>
+            <p>Protecting our waterbodies through historical research and community advocacy to ensure clean water for future generations.</p>
+        </div>
+        <div class="info-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Impact Tracking</h3>
+            <p>Use our tools to calculate your personal carbon footprint and see how your lifestyle changes affect the environment.</p>
+        </div>
+        </section>
+
+        <section class="cta-section">
+        <h3>Ready to make a difference?</h3>
+        <p>Explore our news for the latest updates or calculate your impact today.</p>
+        <div class="cta-buttons">
+            <a href="news.html" class="btn-primary">Latest News</a>
+            <a href="carbon.html" class="btn-secondary">Carbon Calculator</a>
+        </div>
+        </section>
+    </main>
+        
+    <section class="slideshow-container">
+    <div class="slide fade">
+        <img src="./images/nopoverty.jpg" style="width:100%" alt="Goal 1: No Poverty">
+        <div class="slide-caption">Goal 1: No Poverty</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/zerohunger.jpg" style="width:100%" alt="Goal 2: Zero Hunger">
+        <div class="slide-caption">Goal 2: Zero Hunger</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goodhealthandweelbeing.webp" style="width:100%" alt="Goal 3: Good Health and Well-being">
+        <div class="slide-caption">Goal 3: Good Health and Well-being</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/qualityofeducation.jpeg" style="width:100%" alt="Goal 4: Quality Education">
+        <div class="slide-caption">Goal 4: Quality Education</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/genderequality.jpg" style="width:100%" alt="Goal 5: Gender Equality">
+        <div class="slide-caption">Goal 5: Gender Equality</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/cleanwater.webp" style="width:100%" alt="Goal 6: Clean Water and Sanitation">
+        <div class="slide-caption">Goal 6: Clean Water and Sanitation</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/affordableandcleanenergy.jpg" style="width:100%" alt="Goal 7: Affordable and Clean Energy">
+        <div class="slide-caption">Goal 7: Affordable and Clean Energy</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/decentwork.webp" style="width:100%" alt="Goal 8: Decent Work and Economic Growth">
+        <div class="slide-caption">Goal 8: Decent Work and Economic Growth</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goal9.jpg" style="width:100%" alt="Goal 9: Industry, Innovation and Infrastructure">
+        <div class="slide-caption">Goal 9: Industry, Innovation and Infrastructure</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goal10.png" style="width:100%" alt="Goal 10: Reduced Inequalities">
+        <div class="slide-caption">Goal 10: Reduced Inequalities</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goal11.webp" style="width:100%" alt="Goal 11: Sustainable Cities and Communities">
+        <div class="slide-caption">Goal 11: Sustainable Cities and Communities</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goal12.jpg" style="width:100%" alt="Goal 12: Responsible Consumption and Production">
+        <div class="slide-caption">Goal 12: Responsible Consumption and Production</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goal13.jpg" style="width:100%" alt="Goal 13: Climate Action">
+        <div class="slide-caption">Goal 13: Climate Action</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goal14.jpg" style="width:100%" alt="Goal 14: Life Below Water">
+        <div class="slide-caption">Goal 14: Life Below Water</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goal15.png" style="width:100%" alt="Goal 15: Life on Land">
+        <div class="slide-caption">Goal 15: Life on Land</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goal16.png" style="width:100%" alt="Goal 16: Peace, Justice and Strong Institutions">
+        <div class="slide-caption">Goal 16: Peace, Justice and Strong Institutions</div>
+    </div>
+    <div class="slide fade">
+        <img src="./images/goal17.png" style="width:100%" alt="Goal 17: Partnerships for the Goals">
+        <div class="slide-caption">Goal 17: Partnerships for the Goals</div>
+    </div>
+    </section>
 
     <footer>
         <p>&copy; 2026 Sustainable Communities. All rights reserved.</p>
@@ -41,5 +155,7 @@
     </div>
           
     </footer>
+        <script src="./javascript/main.js"></script>
+        <script src="./javascript/slideshow.js"></script>
 </body>
 </html>

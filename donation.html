@@ -3,37 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel ="stylesheet" href="CSS/common.css">
+    <link rel ="stylesheet" href="CSS/donation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Sustainable Communities</title>
 </head>
+
 <body>
      <header>
         <h1>Sustainable Communities</h1>
 
             <nav>
                 <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/news.html">News</a></li>
-                    <li><a href="/worldpollution.html">World Pollution</a></li>
-                    <li><a href="/donation.html">Donation</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="worldpollution.html">World Pollution</a></li>
+                    <li><a href="donation.html">Donation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
+                </nav>
      </header>
-    
+         <button id="themeToggle"> Dark Mode</button>
+
     <main>
-        <h2>Support Our Cause</h2>
-        <p>Your contributions help fund critical sustainability projects, from building biofilter living walls to supporting indigenous-led water conservation narratives.</p>
-        
-        
+        <section class="hero">
+    <h2>Build a Greener Future</h2>
+    <p>Your donation supports clean water, reforestation, and sustainable communities.</p>
+</section>
+
+        <div class="container">
+    <div class="card">
+    <img src="images/trees.jpg" alt="Planting trees">
+    <h3>$10</h3>
+    <p>Plant trees</p>
+    <button class="btn donate">Select</button>
+</div>
+
+    <div class="card">
+        <img src="images/water.jpg" alt="Clean Water">
+        <h3>$25</h3>
+        <p>Clean water</p>
+        <button class="btn donate">Select</button>
+    </div>
+
+    <div class="card">
+        <img src="images/community.jpeg" alt="Communities">
+        <h3>$50</h3>
+        <p>Community support</p>
+        <button class="btn donate">Select</button>
+    </div>
+</div>
+
+<!-- FORM -->
+<div class="form-box">
+    <h3>Donate</h3>
+    <input type="text" id="name" placeholder="Your name">
+    <input type="number" id="amount" placeholder="Amount">
+    <button class="btn" id="submit">Donate</button>
+    <p id="message"></p>
+</div>
+
+<section class="hero">
+<h2>Trusted Environmental Charities</h2>
+<p>Click to learn more about organizations protecting our planet.</p>
+
+<div class="container">
+
+  <div class="card logo-card">
+    <a href="https://www.worldwildlife.org/" target="_blank">
+      <p>World Wildlife Fund</p>
+       <button class="visit-btn">Visit</button>
+    </a>
+  </div>
+
+  <div class="card logo-card">
+    <a href="https://www.greenpeace.org/" target="_blank">
+      <p>Greenpeace</p>
+       <button class="visit-btn" >Visit</button>
+    </a>
+  </div>
+
+  <div class="card logo-card">
+    <a href="https://www.nature.org/" target="_blank">
+      <p>The Nature Conservancy</p>
+       <button class="visit-btn">Visit</button>
+    </a>
+  </div>
+
+  <div class="card logo-card">
+    <a href="https://ecojustice.ca/" target="_blank">
+        <p>Fights environmental issues through law.</p>
+         <button class="visit-btn">Visit</button>
+    </a>
+  </div>
+</div>   
+</section>
     </main>
 
     <footer>
         <p>&copy; 2026 Sustainable Communities. All rights reserved.</p>
         <p>Contact us at info@sustainablecommunities.org</p>
-       
-
-          
+       <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div> 
     </footer>
+            <script src="./javascript/main.js"></script>
+            <script src="./javascript/donate.js"></script>
+
 </body>
+
 </html>

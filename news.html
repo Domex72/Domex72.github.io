@@ -3,44 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel ="stylesheet" href="CSS/common.css">
+    <link rel ="stylesheet" href="CSS/styleNews.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>Sustainable Communities</title>
+    <title>Sustainable Communities - News</title>
 </head>
 <body>
      <header>
         <h1>Sustainable Communities</h1>
-
-            <nav>
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/news.html">News</a></li>
-                    <li><a href="/worldpollution.html">World Pollution</a></li>
-                    <li><a href="/donation.html">Donation</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="worldpollution.html">World Pollution</a></li>
+                <li><a href="donation.html">Donation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
      </header>
+     <button id="themeToggle"> Dark Mode</button>
+
     <main>
         <h2>Latest Environmental News</h2>
-        
-        <article class="news-item">
-            <h3>New Biofilter Living Wall Proposed</h3>
-            <p>Exciting developments are underway as community members propose an active biofilter living wall installation at the Royal Ontario Museum. This initiative aims to improve indoor air quality and showcase urban ecological design right in the heart of the biodiversity exhibition.</p>
-        </article>
+        <p style="text-align: center; margin-bottom: 30px; font-style: italic;">
+            Click on any article to read the full story from the original source.
+        </p>
 
-        <article class="news-item">
-            <h3>Advocating for Water Protection</h3>
-            <p>Ongoing efforts to secure environmental justice and protect vital waterbodies remain a top priority. Community leaders are currently focusing on the protection of vital areas, emphasizing the importance of respecting indigenous treaties and preserving these ecosystems.</p>
-        </article>
+        <div class="news-grid">
+            <article class="news-item">
+                <h3>The future of electricity is wind and solar, new report says</h3>
+                <p>Renewable energy met all new demand for electricity globally in 2025, preventing any increase in the burning of fossil fuels to produce electricity and highlighting the promise of clean sources.</p>
+                <a href="https://www.cbc.ca/news/climate" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Siemens to scale up AI R&D Center for Battery Production in Canada</h3>
+                <p>A major $70 million project was announced to advance battery efficiency and production methods, aiming to solidify leadership in the green economy and North American EV sector.</p>
+                <a href="https://www.canada.ca/en/innovation-science-economic-development/news/2026/04/minister-joly-announces-23-million-investment-in-major-siemens-70-million-project-for-a-canadian-rd-centre-while-at-hannover-messe-in-germany.html" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Electric ferries are breaking records and quietly joining the fleet</h3>
+                <p>As the transportation sector pushes to decarbonize, electric ferries are setting new standards for low-emission maritime travel and quietly expanding their presence globally.</p>
+                <a href="https://www.cbc.ca/news/climate" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Forests Are Changing Fast and Scientists Are Deeply Concerned</h3>
+                <p>A massive global analysis of more than 31,000 tree species reveals that forests around the world are becoming more uniform, losing crucial biodiversity needed to fight climate change.</p>
+                <a href="https://www.sciencedaily.com/news/earth_climate/sustainability/" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Why This Rust-Like Mineral Is One of Earth's Best Carbon Vaults</h3>
+                <p>A common iron mineral hiding in soil turns out to be far better at trapping and storing carbon than scientists previously realized, offering new insights into natural carbon sequestration.</p>
+                <a href="https://www.sciencedaily.com/news/earth_climate/sustainability/" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Scientists Trace Fertilizer Microplastics from Fields to Beaches</h3>
+                <p>Plastic-coated fertilizers used on farms are emerging as a major hidden source of ocean microplastics, bypassing rivers to pollute coastal environments.</p>
+                <a href="https://www.sciencedaily.com/news/earth_climate/sustainability/" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Microplastics Are Undermining the Ocean's Power to Absorb Carbon</h3>
+                <p>Tiny plastic particles drifting through the oceans may be quietly weakening Earth's climate defenses by disrupting the marine life responsible for absorbing atmospheric carbon.</p>
+                <a href="https://www.sciencedaily.com/news/earth_climate/sustainability/" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Scientists Found the Soil Secret That Doubles Forest Regrowth</h3>
+                <p>New research shows tropical forests can recover twice as fast after deforestation when their soils contain specific nitrogen properties, drastically speeding up ecosystem restoration.</p>
+                <a href="https://www.sciencedaily.com/news/earth_climate/sustainability/" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Wildfires Are Polluting the Air Far More Than Thought</h3>
+                <p>Scientists have discovered that wildfires release far more air-polluting gases than previously estimated, transforming into fine particles that are highly dangerous to respiratory health.</p>
+                <a href="https://www.sciencedaily.com/news/earth_climate/sustainability/" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Coral Reefs Could Feed Millions If We Let Them Rebuild</h3>
+                <p>Overfished coral reefs are producing far less food than they could. Researchers found that letting populations recover could boost sustainable fish yields by nearly 50%.</p>
+                <a href="https://www.sciencedaily.com/news/earth_climate/sustainability/" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>New Technology Eliminates "Forever Chemicals" With Record Speed</h3>
+                <p>A new eco-friendly technology has been developed that can rapidly capture and destroy PFAS—the dangerous “forever chemicals” found in water supplies globally.</p>
+                <a href="https://www.sciencedaily.com/news/earth_climate/sustainability/" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+
+            <article class="news-item">
+                <h3>Green Technology and Sustainability Market Fueled by Net-Zero Goals</h3>
+                <p>Investment in green technologies—spanning IoT, cloud computing, and AI-driven environmental analytics—is surging as nations and corporations race to meet 2030 net-zero targets.</p>
+                <a href="https://www.openpr.com/news/4482212/green-technology-and-sustainability-market-fueled-by-net-zero" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+            
+            <article class="news-item">
+                <h3>Solar power in Africa is heating up — thanks to chili peppers</h3>
+                <p>Innovative agricultural practices are merging with solar infrastructure, allowing communities to sustainably grow crops like chili peppers under the shade of massive solar arrays.</p>
+                <a href="https://www.cbc.ca/news/climate" target="_blank" class="read-more">Read Full Article</a>
+            </article>
+        </div>
     </main>
        
-
     <footer>
         <p>&copy; 2026 Sustainable Communities. All rights reserved.</p>
         <p>Contact us at info@sustainablecommunities.org</p>
-       
-
-          
+       <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
     </footer>
+    <script src="./javascript/main.js"></script>
+
 </body>
 </html>

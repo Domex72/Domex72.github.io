@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/carbon.css">
+</head>
+<body>
+    <header>
+        <h1>Sustainable Communities</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="worldpollution.html">World Pollution</a></li>
+                    <li><a href="donation.html">Donation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                </nav>
+     </header>
+    
+
+<button id="themeToggle"> Dark Mode</button>
+
+<h1>Carbon Footprint Calculator</h1>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Transport</h2>
+        <input type="number" id="transportInput" placeholder="km traveled">
+        <button id="addTransport">Add</button>
+    </div>
+
+    <div class="card">
+        <h2>Energy</h2>
+        <input type="number" id="energyInput" placeholder="kWh used">
+        <button id="addEnergy">Add</button>
+    </div>
+
+    <div class="card">
+        <h2>Food</h2>
+        <select id="foodInput">
+            <option value="1">Vegetarian</option>
+            <option value="2">Mixed</option>
+            <option value="3">Meat Lover</option>
+        </select>
+        <button id="addFood">Add</button>
+    </div>
+
+</div>
+
+<div class="actions">
+    <button id="reportBtn">Show Report</button>
+    <button id="resetBtn">Reset</button>
+</div>
+
+<h2>Results</h2>
+<pre id="output"></pre>
+
+<canvas id="chart" width="300" height="300"></canvas>
+<div class="legend">
+    <div class="container">
+    <div class="card">
+        <h3>Legend</h3>
+        <div class="legend">
+            <p><span class="box transport"></span> Transport</p>
+            <p><span class="box energy"></span> Energy</p>
+            <p><span class="box food"></span> Food</p>
+        </div>
+    </div>
+</div>
+ <footer>
+        <p>&copy; 2026 Sustainable Communities. All rights reserved.</p>
+        <p>Contact us at info@sustainablecommunities.org</p>
+       <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+
+          
+    </footer>
+<script src="./javascript/main.js"></script>
+
+</body>
+</html>
